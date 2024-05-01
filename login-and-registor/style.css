@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+body{
+    background: url(/images/background-flowers.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page{
+    width: 450px;
+    minheight: 400px;
+    background-color: #0000008d;
+    backdrop-filter: blur(30px);
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.title{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 0;
+}
+.input-box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0;
+}
+label{
+    font-size: 1.2rem;
+}
+input{
+    padding: 8px 2px;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #fff;
+}
+.error{
+    color: red;
+}
+.success{
+    color: rgb(5, 229, 5);
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox a{
+    text-decoration: none;
+}
+.submit{
+    width: 100%;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(133, 131, 131);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 0;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+.submit:hover{
+    background-color: #f0ffff;
+}
+.no-account{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+.no-account p a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: gray;
+}
