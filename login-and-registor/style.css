@@ -6,7 +6,9 @@
     color: #fff;
 }
 body{
-    background: url(/images/background-flowers.jpg) no-repeat center;
+    background: url(/images/background-flowers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
